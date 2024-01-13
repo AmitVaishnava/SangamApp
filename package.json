@@ -4,10 +4,12 @@
   "private": true,
   "scripts": {
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "ios": "react-native run-ios",
+    "ios:dev": "yarn ios --scheme SangamAppDev",
+    "ios:stage": "yarn ios --scheme SangamAppStage"
   },
   "dependencies": {
     "react": "18.2.0",

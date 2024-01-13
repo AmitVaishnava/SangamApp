@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* SangamAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SangamAppTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-SangamApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-SangamApp.a */; };
+		0C80B921A6F3F58F76C31292 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4615FC47E337CC01D00D6969 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		6AE6F7717A647A0AD1073E41 /* libPods-SangamApp-SangamAppDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ECA7961104DCC6F01EDBB23 /* libPods-SangamApp-SangamAppDev.a */; };
 		7699B88040F8A987B510C191 /* libPods-SangamApp-SangamAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-SangamApp-SangamAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8FEA51252EAAA90E44C343AA /* libPods-SangamApp-SangamAppStage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 054C19FA780744538DCEB46E /* libPods-SangamApp-SangamAppStage.a */; };
+		B81E1611C177412D9498513A /* libPods-SangamApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C46002A7069FC482A2E2409 /* libPods-SangamApp.a */; };
+		C764D2F42B532BE000B5F29F /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		C764D2F52B532BE000B5F29F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		C764D2F92B532BE000B5F29F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		C764D2FA2B532BE000B5F29F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		C764D3062B5330DC00B5F29F /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		C764D3072B5330DC00B5F29F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		C764D30C2B5330DC00B5F29F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		C764D30D2B5330DC00B5F29F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +42,28 @@
 		00E356EE1AD99517003FC87E /* SangamAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SangamAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* SangamAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SangamAppTests.m; sourceTree = "<group>"; };
+		054C19FA780744538DCEB46E /* libPods-SangamApp-SangamAppStage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SangamApp-SangamAppStage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* SangamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SangamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SangamApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = SangamApp/AppDelegate.mm; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SangamApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SangamApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SangamApp/main.m; sourceTree = "<group>"; };
+		1785F752B0A14F8BDF0E6D99 /* Pods-SangamApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SangamApp.debug.xcconfig"; path = "Target Support Files/Pods-SangamApp/Pods-SangamApp.debug.xcconfig"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-SangamApp-SangamAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SangamApp-SangamAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-SangamApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SangamApp.debug.xcconfig"; path = "Target Support Files/Pods-SangamApp/Pods-SangamApp.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-SangamApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SangamApp.release.xcconfig"; path = "Target Support Files/Pods-SangamApp/Pods-SangamApp.release.xcconfig"; sourceTree = "<group>"; };
+		1F758419CD6B3024CA8D1A10 /* Pods-SangamApp-SangamAppStage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SangamApp-SangamAppStage.debug.xcconfig"; path = "Target Support Files/Pods-SangamApp-SangamAppStage/Pods-SangamApp-SangamAppStage.debug.xcconfig"; sourceTree = "<group>"; };
+		4ECA7961104DCC6F01EDBB23 /* libPods-SangamApp-SangamAppDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SangamApp-SangamAppDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B7EB9410499542E8C5724F5 /* Pods-SangamApp-SangamAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SangamApp-SangamAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SangamApp-SangamAppTests/Pods-SangamApp-SangamAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-SangamApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SangamApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66DE9647EA5D67AA1209F7E5 /* Pods-SangamApp-SangamAppDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SangamApp-SangamAppDev.release.xcconfig"; path = "Target Support Files/Pods-SangamApp-SangamAppDev/Pods-SangamApp-SangamAppDev.release.xcconfig"; sourceTree = "<group>"; };
+		6C46002A7069FC482A2E2409 /* libPods-SangamApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SangamApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SangamApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-SangamApp-SangamAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SangamApp-SangamAppTests.release.xcconfig"; path = "Target Support Files/Pods-SangamApp-SangamAppTests/Pods-SangamApp-SangamAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		BBAA9E0FC6F9589A49CBD355 /* Pods-SangamApp-SangamAppDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SangamApp-SangamAppDev.debug.xcconfig"; path = "Target Support Files/Pods-SangamApp-SangamAppDev/Pods-SangamApp-SangamAppDev.debug.xcconfig"; sourceTree = "<group>"; };
+		C764D3012B532BE000B5F29F /* SangamAppDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SangamAppDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C764D3142B5330DC00B5F29F /* SangamAppStage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SangamAppStage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1603E7AAE8D7730E419362 /* Pods-SangamApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SangamApp.release.xcconfig"; path = "Target Support Files/Pods-SangamApp/Pods-SangamApp.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EF18858726C2DDD2FCB1A5D7 /* Pods-SangamApp-SangamAppStage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SangamApp-SangamAppStage.release.xcconfig"; path = "Target Support Files/Pods-SangamApp-SangamAppStage/Pods-SangamApp-SangamAppStage.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +79,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-SangamApp.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* BuildFile in Frameworks */,
+				4615FC47E337CC01D00D6969 /* BuildFile in Frameworks */,
+				B81E1611C177412D9498513A /* libPods-SangamApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C764D2F62B532BE000B5F29F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE6F7717A647A0AD1073E41 /* libPods-SangamApp-SangamAppDev.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C764D3082B5330DC00B5F29F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEA51252EAAA90E44C343AA /* libPods-SangamApp-SangamAppStage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +138,10 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-SangamApp.a */,
 				19F6CBCC0A4E27FBF8BF4A61 /* libPods-SangamApp-SangamAppTests.a */,
+				4ECA7961104DCC6F01EDBB23 /* libPods-SangamApp-SangamAppDev.a */,
+				054C19FA780744538DCEB46E /* libPods-SangamApp-SangamAppStage.a */,
+				6C46002A7069FC482A2E2409 /* libPods-SangamApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -133,6 +173,8 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* SangamApp.app */,
 				00E356EE1AD99517003FC87E /* SangamAppTests.xctest */,
+				C764D3012B532BE000B5F29F /* SangamAppDev.app */,
+				C764D3142B5330DC00B5F29F /* SangamAppStage.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,10 +182,14 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-SangamApp.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-SangamApp.release.xcconfig */,
 				5B7EB9410499542E8C5724F5 /* Pods-SangamApp-SangamAppTests.debug.xcconfig */,
 				89C6BE57DB24E9ADA2F236DE /* Pods-SangamApp-SangamAppTests.release.xcconfig */,
+				1785F752B0A14F8BDF0E6D99 /* Pods-SangamApp.debug.xcconfig */,
+				EC1603E7AAE8D7730E419362 /* Pods-SangamApp.release.xcconfig */,
+				BBAA9E0FC6F9589A49CBD355 /* Pods-SangamApp-SangamAppDev.debug.xcconfig */,
+				66DE9647EA5D67AA1209F7E5 /* Pods-SangamApp-SangamAppDev.release.xcconfig */,
+				1F758419CD6B3024CA8D1A10 /* Pods-SangamApp-SangamAppStage.debug.xcconfig */,
+				EF18858726C2DDD2FCB1A5D7 /* Pods-SangamApp-SangamAppStage.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -193,6 +239,48 @@
 			productReference = 13B07F961A680F5B00A75B9A /* SangamApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C764D2F12B532BE000B5F29F /* SangamAppDev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C764D2FE2B532BE000B5F29F /* Build configuration list for PBXNativeTarget "SangamAppDev" */;
+			buildPhases = (
+				1BA89EE87BF698230D91640E /* [CP] Check Pods Manifest.lock */,
+				C764D2F32B532BE000B5F29F /* Sources */,
+				C764D2F62B532BE000B5F29F /* Frameworks */,
+				C764D2F82B532BE000B5F29F /* Resources */,
+				C764D2FB2B532BE000B5F29F /* Bundle React Native code and images */,
+				6A52D2AED6889C2243AACDA6 /* [CP] Embed Pods Frameworks */,
+				2505865B2E78D41512E97770 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SangamAppDev;
+			productName = SangamApp;
+			productReference = C764D3012B532BE000B5F29F /* SangamAppDev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C764D3032B5330DC00B5F29F /* SangamAppStage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C764D3112B5330DC00B5F29F /* Build configuration list for PBXNativeTarget "SangamAppStage" */;
+			buildPhases = (
+				C764D3042B5330DC00B5F29F /* [CP] Check Pods Manifest.lock */,
+				C764D3052B5330DC00B5F29F /* Sources */,
+				C764D3082B5330DC00B5F29F /* Frameworks */,
+				C764D30B2B5330DC00B5F29F /* Resources */,
+				C764D30E2B5330DC00B5F29F /* Bundle React Native code and images */,
+				C764D30F2B5330DC00B5F29F /* [CP] Embed Pods Frameworks */,
+				C764D3102B5330DC00B5F29F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SangamAppStage;
+			productName = SangamApp;
+			productReference = C764D3142B5330DC00B5F29F /* SangamAppStage.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -225,6 +313,8 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* SangamApp */,
 				00E356ED1AD99517003FC87E /* SangamAppTests */,
+				C764D2F12B532BE000B5F29F /* SangamAppDev */,
+				C764D3032B5330DC00B5F29F /* SangamAppStage */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +333,24 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C764D2F82B532BE000B5F29F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C764D2F92B532BE000B5F29F /* LaunchScreen.storyboard in Resources */,
+				C764D2FA2B532BE000B5F29F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C764D30B2B5330DC00B5F29F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C764D30C2B5330DC00B5F29F /* LaunchScreen.storyboard in Resources */,
+				C764D30D2B5330DC00B5F29F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +388,62 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SangamApp/Pods-SangamApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BA89EE87BF698230D91640E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SangamApp-SangamAppDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2505865B2E78D41512E97770 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SangamApp-SangamAppDev/Pods-SangamApp-SangamAppDev-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SangamApp-SangamAppDev/Pods-SangamApp-SangamAppDev-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SangamApp-SangamAppDev/Pods-SangamApp-SangamAppDev-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A52D2AED6889C2243AACDA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SangamApp-SangamAppDev/Pods-SangamApp-SangamAppDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SangamApp-SangamAppDev/Pods-SangamApp-SangamAppDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SangamApp-SangamAppDev/Pods-SangamApp-SangamAppDev-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -343,6 +507,94 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SangamApp-SangamAppTests/Pods-SangamApp-SangamAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C764D2FB2B532BE000B5F29F /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		C764D3042B5330DC00B5F29F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SangamApp-SangamAppStage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C764D30E2B5330DC00B5F29F /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		C764D30F2B5330DC00B5F29F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SangamApp-SangamAppStage/Pods-SangamApp-SangamAppStage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SangamApp-SangamAppStage/Pods-SangamApp-SangamAppStage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SangamApp-SangamAppStage/Pods-SangamApp-SangamAppStage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C764D3102B5330DC00B5F29F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SangamApp-SangamAppStage/Pods-SangamApp-SangamAppStage-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SangamApp-SangamAppStage/Pods-SangamApp-SangamAppStage-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SangamApp-SangamAppStage/Pods-SangamApp-SangamAppStage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,6 +646,24 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C764D2F32B532BE000B5F29F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C764D2F42B532BE000B5F29F /* AppDelegate.mm in Sources */,
+				C764D2F52B532BE000B5F29F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C764D3052B5330DC00B5F29F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C764D3062B5330DC00B5F29F /* AppDelegate.mm in Sources */,
+				C764D3072B5330DC00B5F29F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +731,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-SangamApp.debug.xcconfig */;
+			baseConfigurationReference = 1785F752B0A14F8BDF0E6D99 /* Pods-SangamApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -488,7 +758,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-SangamApp.release.xcconfig */;
+			baseConfigurationReference = EC1603E7AAE8D7730E419362 /* Pods-SangamApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -664,6 +934,110 @@
 			};
 			name = Release;
 		};
+		C764D2FF2B532BE000B5F29F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBAA9E0FC6F9589A49CBD355 /* Pods-SangamApp-SangamAppDev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SangamApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		C764D3002B532BE000B5F29F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DE9647EA5D67AA1209F7E5 /* Pods-SangamApp-SangamAppDev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = SangamApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		C764D3122B5330DC00B5F29F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F758419CD6B3024CA8D1A10 /* Pods-SangamApp-SangamAppStage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SangamApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		C764D3132B5330DC00B5F29F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF18858726C2DDD2FCB1A5D7 /* Pods-SangamApp-SangamAppStage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = SangamApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -690,6 +1064,24 @@
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
 				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C764D2FE2B532BE000B5F29F /* Build configuration list for PBXNativeTarget "SangamAppDev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C764D2FF2B532BE000B5F29F /* Debug */,
+				C764D3002B532BE000B5F29F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C764D3112B5330DC00B5F29F /* Build configuration list for PBXNativeTarget "SangamAppStage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C764D3122B5330DC00B5F29F /* Debug */,
+				C764D3132B5330DC00B5F29F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -20,7 +20,11 @@ function App(): React.JSX.Element {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
-  return <View>{/* <Text>`{Config.ENV}`</Text> */}</View>;
+  return (
+    <View>
+      <Text style={{marginTop: 20, fontSize: 20}}>`{Config.ENV}`</Text>
+    </View>
+  );
 }
 
 export default App;
